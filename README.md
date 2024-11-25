@@ -23,19 +23,29 @@ Model Architecture Hyperparameters
 
   Number of Filters in Convolutional Layers:
     First Conv2D layer: 32 filters
+    
     Second Conv2D layer: 64 filters
+    
     Third Conv2D layer: 128 filters
+  
   Filter Size in Convolutional Layers:  All Conv2D layers use a (3, 3) filter size.
+  
   Pooling Size in MaxPooling Layers:  All MaxPooling2D layers use a (2, 2) pool size.
+  
   Dropout Rate:  Dropout rate in the fully connected layer: 0.6
+  
   Dense Layer Neurons:  Fully connected dense layer has 256 neurons.
 
 
 Training Hyperparameters
 
   Learning Rate:  1e-4.
+  
   Batch Size:  4 samples per batch.
+  
   Number of Epochs:  20 epochs for training.
+  
   Loss Function:  categorical_crossentropy
+  
   Optimizer:  Adam
 
