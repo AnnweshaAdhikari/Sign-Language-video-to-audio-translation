@@ -21,12 +21,7 @@
 
 Model Architecture Hyperparameters
 
-  Number of Filters in Convolutional Layers:
-    First Conv2D layer: 32 filters
-    
-    Second Conv2D layer: 64 filters
-    
-    Third Conv2D layer: 128 filters
+  Number of Filters in Convolutional Layers:  First Conv2D layer: 32 filters,  Second Conv2D layer: 64 filters,  Third Conv2D layer: 128 filters
   
   Filter Size in Convolutional Layers:  All Conv2D layers use a (3, 3) filter size.
   
